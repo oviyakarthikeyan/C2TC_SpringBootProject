@@ -13,6 +13,7 @@ public class Shop {
 	private Customer3 customer3;
 	
 	public void ordering() {
+		customer1.order();
 		customer2.order();
 		customer3.order();
 	}

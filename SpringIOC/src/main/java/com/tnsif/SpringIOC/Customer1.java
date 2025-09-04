@@ -15,6 +15,7 @@ public class Customer1 {
 	public void order() {
 		System.out.println("Customer1 ordering");
 	}
+	
 	public int getCid() {
 		return cid;
 	}
